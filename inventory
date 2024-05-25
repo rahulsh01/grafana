@@ -1,2 +1,2 @@
 
-ubuntu ansible_host=13.127.121.136 ansible_ssh_user=ubuntu ansible_private_key_file=/var/lib/jenkins/grafana.pem
+ubuntu ansible_host=43.205.231.120 ansible_ssh_user=ubuntu ansible_private_key_file=/var/lib/jenkins/grafana.pem
