@@ -1,0 +1,11 @@
+---
+- name: Tests Grafana role
+  hosts: all
+  gather_facts: yes
+  connection: local 
+  become: true
+  vars:
+   ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+  roles:
+    - grafana
+
